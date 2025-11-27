@@ -4,7 +4,7 @@
 
 Ez a dokumentáció a Reservation API végpontjait ismerteti. Az API RESTful elveket követve lehetővé teszi foglalások kezelését, valamint felhasználói regisztrációt és bejelentkezést.
 
-**Base URL:** `{{base_url}}`
+**Base URL:** `{{localhost/reservationKisuj/public/api}}`
 
 ---
 
@@ -500,4 +500,5 @@ curl -X PATCH {{base_url}}/reservations/1 \
    - **PATCH:** Részleges frissítés, csak a módosítani kívánt mezőket add meg
 
 4. **Vendégek száma:** Bár a példákban string formátumban van, ajánlott integer típusként küldeni.
+
 
