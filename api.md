@@ -487,18 +487,9 @@ curl -X PATCH {{base_url}}/reservations/1 \
   }'
 ```
 
----
 
-## Megjegyzések
 
-1. **Token kezelés:** A bejelentkezéskor kapott tokent biztonságosan tárold. Minden autentikált kéréshez csatold az `Authorization` headerben.
 
-2. **Dátum formátum:** Az `reservation_time` mező esetén használj `YYYY-MM-DD HH:MM:SS` formátumot.
 
-3. **PUT vs PATCH:** 
-   - **PUT:** Teljes erőforrás-frissítés, minden mezőt meg kell adni
-   - **PATCH:** Részleges frissítés, csak a módosítani kívánt mezőket add meg
-
-4. **Vendégek száma:** Bár a példákban string formátumban van, ajánlott integer típusként küldeni.
 
 
